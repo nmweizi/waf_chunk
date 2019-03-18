@@ -1,4 +1,5 @@
 - 看到http://gv7.me/articles/2019/chunked-coding-converter/ 用Burp实现的方法，不免心痒，用mitmproxy实现一个。 
+- mitmdump -s waf_chunk.py启动
 - 需要修改mitmproxy中的assemble.py，谁有其他方法，烦告知。
 ```python 
 def assemble_body(headers, body_chunks):                                                                         
